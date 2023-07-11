@@ -1,0 +1,29 @@
+{
+    "name": "@bot-was/baileys",
+    "version": "0.0.1",
+    "description": "Creacte a bot for whatsapp with baileys library or bot-whatsapp",
+    "main": "./lib/baileys/index.cjs",
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "files": [
+        "./lib/"
+    ],
+    "dependencies": {
+        "@adiwajshing/keyed-db": "^0.2.4",
+        "@bot-whatsapp/bot": "latest",
+        "@bot-whatsapp/database": "latest",
+        "@ffmpeg-installer/ffmpeg": "^1.1.0",
+        "@whiskeysockets/baileys": "^6.3.0",
+        "fluent-ffmpeg": "^2.1.2",
+        "qrcode-terminal": "^0.12.0",
+        "wa-sticker-formatter": "^4.4.4"
+    },
+    "exports": {
+        "./baileys": "./lib/baileys/index.cjs"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/codigoencasa/bot-whatsapp/tree/main/packages/provider"
+    }
+}
